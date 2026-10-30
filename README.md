@@ -33,7 +33,7 @@ You will need a circuitry kit including a breadboard, a button, a rotary potenti
 
 ### Processing Setup
 1. Download and install [Processing](https://processing.org/download).
-2. Open `snek_2.pde` file in Processing and select **Java** mode.
+2. Open `snek_2.pde` in Processing and select **Java** mode.
 3. Keep the ESP32 connected after uploading the Arduino sketch. Close Arduino’s **Serial Monitor** and **Serial Plotter** so Processing can access the serial port.
 4. Click **Run**. The available serial ports will appear in the Processing console.
 5. Find the ESP32’s port, matching the port selected in Arduino IDE. Update `portIndex` near the top of the Processing sketch to its corresponding index. On macOS, select the `/dev/cu.*` entry associated with the ESP32.
